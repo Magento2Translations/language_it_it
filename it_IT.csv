@@ -6589,7 +6589,6 @@ Enable,Attiva,module,Magento_Sales
 "We'll use the default description above if you leave this empty.","Useremo la descrizione predefinita mostrata sopra se si lascia questo campo vuoto.",module,Magento_Sales
 "Multi-address Error to Show in Shopping Cart","Errore indirizzi multipli da mostrare nel carrello",module,Magento_Sales
 "We'll use the default error above if you leave this empty.","Useremo l'errore predefinito mostrato sopra se si lascia questo campo vuoto.",module,Magento_Sales
-"Use Aggregated Data (beta)","Utilizza dati aggregati (beta)",module,Magento_Sales
 "Orders Cron Settings","Impostazioni Cron Ordini",module,Magento_Sales
 "Pending Payment Order Lifetime (minutes)","Durata (in minuti) in attesa pagamento ordine",module,Magento_Sales
 "Sales Emails","Email Vendite",module,Magento_Sales
