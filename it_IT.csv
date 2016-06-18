@@ -6504,6 +6504,8 @@ Machinable,Lavorabile,module,Magento_Usps
 "Sort Order",Ordinamento,module,Magento_Usps
 "Variable ID","ID variabile",module,Magento_Variable
 Name,Nome,module,Magento_Variable
+"Web API Security","Protezione Web API",module,Magento_WebapiSecurity
+"Allow Anonymous Guest Access","Consentire l'accesso anonimo",module,Magento_WebapiSecurity
 "SOAP Settings","Impostazioni SOAP",module,Magento_Webapi
 "Default Response Charset","Set di caratteri predefinito risposto",module,Magento_Webapi
 "If empty, UTF-8 will be used.","Se vuoto, verrà utilizzato UTF-8.",module,Magento_Webapi
