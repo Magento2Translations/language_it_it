@@ -1112,7 +1112,6 @@ State/Province,Stato/Provincia,module,Magento_Checkout
 "My Cart (1 item)","Carrello (1 articolo)",module,Magento_Checkout
 "My Cart (%1 items)","Carrello (%1 articoli)",module,Magento_Checkout
 "My Cart",Carrello,module,Magento_Checkout
-"Minimum order amount is %1","L'importo minimo d'ordine è %1",module,Magento_Checkout
 "Customer is already registered","Il cliente è già registrato",module,Magento_Checkout
 "Your session has expired","La sessione è scaduta",module,Magento_Checkout
 "You added %1 to your shopping cart.","Hai aggiunto %1 al tuo carrello.",module,Magento_Checkout
@@ -2690,9 +2689,6 @@ Shipping,Spedizione,module,Magento_Payment
 Yes,Sì,module,Magento_Payment
 "Expiration Date","Data di scadenza",module,Magento_Payment
 "Card Verification Number","Numero di verifica della carta",module,Magento_Payment
-"Switch/Solo/Maestro Only","Solo Switch/Solo/Maestro",module,Magento_Payment
-"Issue Number","Numero di emissione",module,Magento_Payment
-"Start Date","Data Inizio",module,Magento_Payment
 "Please Select",Seleziona,module,Magento_Payment
 "--Please Select--",--Seleziona--,module,Magento_Payment
 "Card Verification Number Visual Reference","Scheda Verifica numero riferimento visivo",module,Magento_Payment
