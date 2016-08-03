@@ -5074,8 +5074,7 @@ Total:,Totale:,module,Magento_Checkout
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name vuole condividere questa lista desideri da %store_name con te:",module,Magento_Wishlist
 "Message from %customer_name:","Messaggio da %customer_name:",module,Magento_Wishlist
 "View all Wish List items","Mostra tutti gli elementi della lista desideri",module,Magento_Wishlist
-"%name,","%nome,",theme,frontend/Magento/luma
-"Welcome to %store_name.","Benvenuto su %nome_negozio.",theme,frontend/Magento/luma
+"Welcome to %store_name.","Benvenuto su %store_name.",theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Per accedere al nostro sito, è necessario utilizzare queste credenziali durante il checkout o sulla pagina <a href=""%customer_url""> Mio Account</a>:",theme,frontend/Magento/luma
 "Password you set when creating account","Password impostata durante la creazione dell'account",theme,frontend/Magento/luma
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Hai dimenticato la password dell'account? Clicca <a href=""%reset_url"">qui</a> per reimpostarla.",theme,frontend/Magento/luma
