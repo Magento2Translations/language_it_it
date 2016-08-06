@@ -1696,7 +1696,7 @@ Visitor,Visitatore,module,Magento_Customer
 Customer,Cliente,module,Magento_Customer
 "No item specified.","Nessun elemento specificato.",module,Magento_Customer
 "Are you sure you want to remove this item?","Sei sicuro di voler eliminare questo elemento?",module,Magento_Customer
-"Personal Information","Informationi personali",module,Magento_Customer
+"Personal Information","Informazioni personali",module,Magento_Customer
 "Last Logged In:","Ultimo accesso:",module,Magento_Customer
 "Last Logged In (%1):","Ultimo accesso in (%1):",module,Magento_Customer
 "Confirmed email:","Conferma email:",module,Magento_Customer
