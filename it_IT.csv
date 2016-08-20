@@ -6296,7 +6296,7 @@ Created,Creato,module,Magento_Sales
 "PDF Creditmemos","PDF Note di credito",module,Magento_Sales
 Refunds,Rimborsi,module,Magento_Sales
 "Search Engine","Motore di ricerca",module,Magento_Search
-Hits,Risultati,module,Magento_Search
+Hits,Utilizzi,module,Magento_Search
 Delete,Elimina,module,Magento_Search
 "Are you sure?","Sei sicuro?",module,Magento_Search
 "Suggested Terms","Termini suggeriti",module,Magento_Search
