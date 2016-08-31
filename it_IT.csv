@@ -611,6 +611,7 @@ name,nome,module,Magento_CatalogSearch
 "Out of stock","Non Disponibile",module,Magento_CatalogWidget
 "Add to Wish List","Aggiungi alla lista desideri",module,Magento_CatalogWidget
 "Add to Compare","Aggiungi al confronto",module,Magento_CatalogWidget
+Root,Radice,module,Magento_Catalog
 "Use Config Settings","Usa Impostazioni di configurazione",module,Magento_Catalog
 "Use All Available Attributes","Usa tutti gli attributi disponibili",module,Magento_Catalog
 Name,Nome,module,Magento_Catalog
@@ -4339,7 +4340,7 @@ Description,Descrizione,module,Magento_Shipping
 "There is no tracking available for this shipment.","Non esiste nessun tracciamento disponibile per questa spedizione.",module,Magento_Shipping
 "There is no tracking available.","Non c'è nessun tracciamento disponibile.",module,Magento_Shipping
 "Close Window","Chiudi finestra",module,Magento_Shipping
-"Save & Generate","Salva e genera",module,Magento_Sitemap
+"Save & Generate","Salva e Genera",module,Magento_Sitemap
 "Edit Sitemap","Modifica Sitemap",module,Magento_Sitemap
 "New Sitemap","Nuova sitemap",module,Magento_Sitemap
 "Sitemap Information","Informazioni sitemap",module,Magento_Sitemap
@@ -5582,8 +5583,8 @@ Payment,Pagamento,module,Magento_Checkout
 "Not yet calculated","Non ancora calcolato",module,Magento_Checkout
 "We received your order!","Abbiamo ricevuto il tuo ordine!",module,Magento_Checkout
 "Thank you for your purchase!","Grazie per il tuo acquisto!",module,Magento_Checkout
-"CMS No Route Page","Pagina CMS no route",module,Magento_Cms
-"CMS No Cookies Page","Pagina CMS nessun cookie",module,Magento_Cms
+"CMS No Route Page","Pagina CMS: Nessun Instradamento",module,Magento_Cms
+"CMS No Cookies Page","Pagina CMS: Nessun Cookie",module,Magento_Cms
 "Show Breadcrumbs for CMS Pages","Visualizza breadcrumbs per le pagine CMS",module,Magento_Cms
 "Browser Capabilities Detection","Rilevamento di funzionalità del browser",module,Magento_Cms
 "Redirect to CMS-page if Cookies are Disabled","Reindirizza alla pagina CMS se i cookie sono disabilitati",module,Magento_Cms
