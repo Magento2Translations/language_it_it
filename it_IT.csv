@@ -537,6 +537,7 @@ Search,Cerca,module,Magento_CatalogSearch
 "Modify your search","Modifica la tua ricerca",module,Magento_CatalogSearch
 name,nome,module,Magento_CatalogSearch
 "Don't see what you're looking for?","Non trovi quello che stai cercando?",module,Magento_CatalogSearch
+Root,Radice,module,Magento_Catalog
 "Save Category","Salva la categoria",module,Magento_Catalog
 "Delete Category","Elimina categoria",module,Magento_Catalog
 "New Subcategory","Nuova sottocategoria",module,Magento_Catalog
@@ -3336,7 +3337,7 @@ Description,Descrizione,module,Magento_Shipping
 "There is no tracking available for this shipment.","Non esiste nessun tracciamento disponibile per questa spedizione.",module,Magento_Shipping
 "There is no tracking available.","Non c'è nessun tracciamento disponibile.",module,Magento_Shipping
 "Close Window","Chiudi finestra",module,Magento_Shipping
-"Save & Generate","Salva e genera",module,Magento_Sitemap
+"Save & Generate","Salva e Genera",module,Magento_Sitemap
 "Edit Sitemap","Modifica Sitemap",module,Magento_Sitemap
 "New Sitemap","Nuova sitemap",module,Magento_Sitemap
 "Sitemap Information","Informazioni sitemap",module,Magento_Sitemap
@@ -4189,8 +4190,8 @@ Details,Dettagli,module,Magento_Catalog
 "Cart Subtotal","Subtotale carrello",module,Magento_Checkout
 "Not yet calculated","Non ancora calcolato",module,Magento_Checkout
 "Thank you for your purchase!","Grazie per il tuo acquisto!",module,Magento_Checkout
-"CMS No Route Page","Pagina CMS no route",module,Magento_Cms
-"CMS No Cookies Page","Pagina CMS nessun cookie",module,Magento_Cms
+"CMS No Route Page","Pagina CMS: Nessun Instradamento",module,Magento_Cms
+"CMS No Cookies Page","Pagina CMS: Nessun Cookie",module,Magento_Cms
 "Show Breadcrumbs for CMS Pages","Visualizza breadcrumbs per le pagine CMS",module,Magento_Cms
 "Browser Capabilities Detection","Rilevamento di funzionalità del browser",module,Magento_Cms
 "Redirect to CMS-page if Cookies are Disabled","Reindirizza alla pagina CMS se i cookie sono disabilitati",module,Magento_Cms
