@@ -343,9 +343,9 @@ Country,Paese,module,Magento_Braintree
 "Credit card successfully deleted","Carta di credito eliminata correttamente",module,Magento_Braintree
 "Edit Credit Card","Modifica carta di credito",module,Magento_Braintree
 "My Credit Cards","Le mie carte di credito",module,Magento_Braintree
-"There was error during saving card data","Si è verificato l'errore durante il salvataggio dei dati della carta",module,Magento_Braintree
+"There was error during saving card data","Si è verificato un errore durante il salvataggio dei dati della carta",module,Magento_Braintree
 "Transaction declined by gateway: Check card details or try another card","Transazione rifiutata dal gateway: controllare i dettagli della carta o provare un'altra carta",module,Magento_Braintree
-"Credit card type is not allowed for your country.","Tipo di carta di credito non permessa per il tuo paese.",module,Magento_Braintree
+"Credit card type is not allowed for your country.","Tipo di carta di credito non permesso per il tuo paese.",module,Magento_Braintree
 "Credit card type is not allowed for this payment method.","Tipo di carta di credito non permesso per questo metodo di pagamento.",module,Magento_Braintree
 "Selected payment type is not allowed for billing country.","Tipo di pagamento selezionato non permesso per il paese di fatturazione.",module,Magento_Braintree
 "Please try again later","Riprova più tardi",module,Magento_Braintree
