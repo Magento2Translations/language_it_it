@@ -446,7 +446,7 @@ Always,Sempre,module,Magento_Captcha
 "After number of attempts to login","Dopo un numero di tentativi di login",module,Magento_Captcha
 "Incorrect CAPTCHA","CAPTCHA errato",module,Magento_Captcha
 "Incorrect CAPTCHA.","CAPTCHA errato.",module,Magento_Captcha
-"<strong>Attention</strong>: Captcha is case sensitive.","<strong>Attenzione</strong>: Il captcha è case sensitive.",module,Magento_Captcha
+"<strong>Attention</strong>: Captcha is case sensitive.","<strong>Attenzione</strong>: il Captcha fa distinzione tra maiuscole e minuscole.",module,Magento_Captcha
 "Reload captcha","Ricarica il Captcha",module,Magento_Captcha
 "Please type the letters below","Inserisci le lettere qui sotto",module,Magento_Captcha
 "Custom options have different types.","Le opzioni personalizzate hanno tipi diversi.",module,Magento_CatalogImportExport
@@ -952,7 +952,7 @@ State/Province,Stato/Provincia,module,Magento_Checkout
 "%1 was updated in your shopping cart.","%1 è stato aggiornato nel tuo carrello.",module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","Si prega di accettare tutti i termini e le condizioni prima di effettuare l'ordine.",module,Magento_Checkout
 "The product does not exist.","Il prodotto non esiste.",module,Magento_Checkout
-"We don't have some of the products you want.","Non abbiamo alcuni dei prodotti che vuoi.",module,Magento_Checkout
+"We don't have some of the products you want.","Alcuni dei prodotti da te richiesti non sono disponibili.",module,Magento_Checkout
 "We don't have as many of some products as you want.","Alcuni dei prodotti da te richiesti non sono presenti nella quantità desiderata.",module,Magento_Checkout
 "Quantity was recalculated from %1 to %2","La quantità è stata ricalcolata da %1 a %2",module,Magento_Checkout
 "This quote item does not exist.","Questo elemento preventivo non esiste.",module,Magento_Checkout
@@ -1116,12 +1116,13 @@ System,Sistema,module,Magento_CurrencySymbol
 "Add New Address","Aggiungi nuovo indirizzo",module,Magento_Customer
 region,regione,module,Magento_Customer
 "Create Order","Crea Ordine",module,Magento_Customer
-"Save Customer","Salva il cliente",module,Magento_Customer
-"Delete Customer","Elimina il cliente",module,Magento_Customer
+"Save Customer","Salva Cliente",module,Magento_Customer
+"Delete Customer","Elimina Cliente",module,Magento_Customer
+"Reset Password","Reimposta Password",module,Magento_Customer
 "New Customer","Nuovo Cliente",module,Magento_Customer
 "Save and Continue Edit","Salva e continua modifica",module,Magento_Customer
 Back,Indietro,module,Magento_Customer
-"Please select","Prego selezionare",module,Magento_Customer
+"Please select",Seleziona,module,Magento_Customer
 Product,Prodotto,module,Magento_Customer
 Quantity,Quantità,module,Magento_Customer
 Price,Prezzo,module,Magento_Customer
@@ -1135,20 +1136,21 @@ Delete,Elimina,module,Magento_Customer
 "Last Date Subscribed","Data dell'ultimo iscritto",module,Magento_Customer
 "Last Date Unsubscribed","Data ultimo disiscritto",module,Magento_Customer
 "No Newsletter Found","Nessuna newsletter trovata",module,Magento_Customer
-"Start date","Data di inizio",module,Magento_Customer
+"Start date","Data Inizio",module,Magento_Customer
 "End Date","Data Fine",module,Magento_Customer
-"Receive Date","Data di ricezione",module,Magento_Customer
+"Receive Date","Data Ricezione",module,Magento_Customer
 Subject,Oggetto,module,Magento_Customer
+Status,Stato,module,Magento_Customer
 Sent,Inviato,module,Magento_Customer
 Cancel,Annulla,module,Magento_Customer
-"Not Sent","Non inviato",module,Magento_Customer
+"Not Sent","Non Inviato",module,Magento_Customer
 Sending,"Invio in corso",module,Magento_Customer
 Paused,Sospeso,module,Magento_Customer
 View,Mostra,module,Magento_Customer
 Unknown,Sconosciuto,module,Magento_Customer
 Order,Ordine,module,Magento_Customer
-"Bill-to Name","Fattura a nome",module,Magento_Customer
-"Ship-to Name","Nome del destinatario",module,Magento_Customer
+"Bill-to Name","Fattura intestata a",module,Magento_Customer
+"Ship-to Name","Nome Destinatario",module,Magento_Customer
 "Order Total","Totale ordine",module,Magento_Customer
 "Purchase Point","Punto di acquisto",module,Magento_Customer
 "Customer View","Vista Cliente",module,Magento_Customer
@@ -4050,15 +4052,15 @@ Environment,Ambiente,module,Magento_Braintree
 "3D Secure Verification","Verifica 3D Secure",module,Magento_Braintree
 "Enable CAPTCHA in Admin","Abilita CAPTCHA in Admin",module,Magento_Captcha
 "Displaying Mode","Modalità di visualizzazione",module,Magento_Captcha
-"Number of Unsuccessful Attempts to Login","Numero di tentativi falliti di Login",module,Magento_Captcha
+"Number of Unsuccessful Attempts to Login","Numero di tentativi di Login falliti",module,Magento_Captcha
 "If 0 is specified, CAPTCHA on the Login form will be always available.","Se si specifica 0, il CAPTCHA nel form di accesso sarà sempre disponibile.",module,Magento_Captcha
 "CAPTCHA Timeout (minutes)","Timeout CAPTCHA (minuti)",module,Magento_Captcha
 "Number of Symbols","Numero di simboli",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Specifica al massimo 8 simboli. Intervallo consentito (ad es. 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","Simboli utilizzati nel CAPTCHA",module,Magento_Captcha
 "Case Sensitive",Maiuscole/minuscole,module,Magento_Captcha
-"Enable CAPTCHA on Storefront","Abilita CAPTCHA sul frontend",module,Magento_Captcha
-"CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA per i form ""Crea utente"" e ""Password dimenticata"" è sempre attivato se scelto.",module,Magento_Captcha
+"Enable CAPTCHA on Storefront","Usa solo lettere (a-z o A-Z) o numeri (0-9) in questo campo. Non sono consentiti spazi o altri caratteri. <br/> Caratteri con aspetto simile (per esempio ""i"", ""l"", ""1"") diminuiscono la probabilità di riconoscimento corretto dal parte del cliente.",module,Magento_Captcha
+"CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Il CAPTCHA per i form ""Crea utente"" e ""Password dimenticata"" è sempre attivato se scelto.",module,Magento_Captcha
 Inventory,Inventario,module,Magento_CatalogInventory
 "Stock Options","Opzioni inventario",module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","Diminuisci l'inventario quando l'ordine viene eseguito",module,Magento_CatalogInventory
@@ -4187,7 +4189,7 @@ Details,Dettagli,module,Magento_Catalog
 "Send Payment Failed Email Copy Method","Metodo Invio copia Email pagamento non riuscito",module,Magento_Checkout
 "Shipping Address","Indirizzo di Spedizione",module,Magento_Checkout
 "For delivery questions.","Per domande sulla consegna.",module,Magento_Checkout
-"Cart Subtotal","Subtotale carrello",module,Magento_Checkout
+"Cart Subtotal","Subtotale Carrello",module,Magento_Checkout
 "Not yet calculated","Non ancora calcolato",module,Magento_Checkout
 "Thank you for your purchase!","Grazie per il tuo acquisto!",module,Magento_Checkout
 "CMS No Route Page","Pagina CMS: Nessun Instradamento",module,Magento_Cms
@@ -4888,7 +4890,7 @@ Empty,Vuoto,module,Magento_Theme
 "Title Suffix","Suffisso Titolo",module,Magento_Theme
 "Default Description","Descrizione predefinita",module,Magento_Theme
 "Default Keywords","Keywords predefinite",module,Magento_Theme
-"Miscellaneous Scripts","Vari script",module,Magento_Theme
+"Miscellaneous Scripts","Script vari",module,Magento_Theme
 "This will be included before head closing tag in page HTML.","Questo sarà incluso prima della chiusura dei tag head nell'HTML della pagina.",module,Magento_Theme
 "Display Demo Store Notice","Mostra Avviso Negozio Demo",module,Magento_Theme
 "Search Engine Robots","Robots motori di ricerca",module,Magento_Theme
