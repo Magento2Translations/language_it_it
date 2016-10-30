@@ -7652,11 +7652,11 @@ Name,Nome,module,Magento_Variable
 "Allow Anonymous Guest Access","Consentire l'accesso anonimo",module,Magento_WebapiSecurity
 "Manage Customers","Gestisci Clienti",module,Magento_Webapi
 "Create Customer","Aggiungi Cliente",module,Magento_Webapi
-"Edit Customer","Modifica cliente",module,Magento_Webapi
-"Get Customer","Ottenere il cliente",module,Magento_Webapi
-"Delete Customer","Elimina il cliente",module,Magento_Webapi
+"Edit Customer","Modifica Cliente",module,Magento_Webapi
+"Get Customer","Ottenere il Cliente",module,Magento_Webapi
+"Delete Customer","Elimina il Cliente",module,Magento_Webapi
 "SOAP Settings","Impostazioni SOAP",module,Magento_Webapi
-"Default Response Charset","Set di caratteri predefinito risposto",module,Magento_Webapi
+"Default Response Charset","Set di caratteri di risposta predefiniti",module,Magento_Webapi
 "If empty, UTF-8 will be used.","Se vuoto, verrà utilizzato UTF-8.",module,Magento_Webapi
 "Web Services Configuration","Configurazione dei Web services",module,Magento_Webapi
 "REST and SOAP configurations, generated WSDL file","Configurazioni REST e SOAP, file WSDL generato",module,Magento_Webapi
