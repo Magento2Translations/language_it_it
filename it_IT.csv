@@ -1074,6 +1074,7 @@ Disabled,Disabilitato,module,Magento_Catalog
 "Please provide valid data","Fornire dati validi",module,Magento_Catalog
 "Values of following attributes are invalid: %1","I valori dei seguenti attributi non sono validi: %1",module,Magento_Catalog
 "Could not save group price","Impossibile salvare prezzo dei gruppi",module,Magento_Catalog
+"We can't create writeable directory ""%1"".","Impossibile creare una directory scrivibile ""%1"".",module,Magento_Catalog
 "The file upload failed.","Caricamento file non riuscito.",module,Magento_Catalog
 "The product has required options.","Il prodotto ha opzioni obbligatorie.",module,Magento_Catalog
 "Something went wrong while processing the request.","Qualcosa è andato storto durante l'elaborazione della richiesta.",module,Magento_Catalog
