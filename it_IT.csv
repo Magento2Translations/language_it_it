@@ -1284,6 +1284,7 @@ Change,Modifica,module,Magento_Customer
 "Contact Information","Informazioni di Contatto",module,Magento_Customer
 "Change Password","Cambia Password",module,Magento_Customer
 Newsletters,Newsletter,module,Magento_Customer
+or,o,module,Magento_Customer
 "Default Addresses","Indirizzi predefiniti",module,Magento_Customer
 "Change Billing Address","Cambia indirizzo di fatturazione",module,Magento_Customer
 "You have no default billing address in your address book.","Non hai nessun indirizzo di fatturazione predefinito nella tua rubrica.",module,Magento_Customer
@@ -4985,7 +4986,7 @@ Machinable,Lavorabile,module,Magento_Usps
 "Show Method if Not Applicable","Mostra metodo se non applicabile",module,Magento_Usps
 "Sort Order",Ordinamento,module,Magento_Usps
 "SOAP Settings","Impostazioni SOAP",module,Magento_Webapi
-"Default Response Charset","Set di caratteri predefinito risposto",module,Magento_Webapi
+"Default Response Charset","Set di caratteri di risposta predefiniti",module,Magento_Webapi
 "If empty, UTF-8 will be used.","Se vuoto, verrà utilizzato UTF-8.",module,Magento_Webapi
 "Web Services Configuration","Configurazione dei Web services",module,Magento_Webapi
 "REST and SOAP configurations, generated WSDL file.","Configurazioni REST e SOAP, file WSDL generato.",module,Magento_Webapi
