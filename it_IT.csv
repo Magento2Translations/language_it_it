@@ -641,6 +641,7 @@ Catalog,Catalogo,module,Magento_CatalogRule
 "Unable to remove rule %1","Impossibile rimuovere la regola %1",module,Magento_CatalogRule
 "Could not rebuild index for empty products array","Non è possibile ricostruire l'indice per array prodotti vuoto",module,Magento_CatalogRule
 "We can't rebuild the index for an undefined product.","Impossibile ricostruire l'indice per un prodotto indefinito.",module,Magento_CatalogRule
+"Catalog rule indexing failed. See details in exception log.","Il reindex delle regole di catalogo non è andato a buon fine. Per maggiori dettagli controlla nell'exeption log.",module,Magento_CatalogRule
 "Percentage discount should be between 0 and 100.","La percentuale di sconto deve essere compresa tra 0 e 100.",module,Magento_CatalogRule
 "Discount value should be 0 or greater.","Il valore di sconto deve essere maggiore o uguale a 0.",module,Magento_CatalogRule
 "Unknown action.","Azione sconosciuta.",module,Magento_CatalogRule
@@ -697,7 +698,6 @@ name,nome,module,Magento_CatalogSearch
 "Out of stock","Non Disponibile",module,Magento_CatalogWidget
 "Add to Wish List","Aggiungi alla lista desideri",module,Magento_CatalogWidget
 "Add to Compare","Aggiungi al confronto",module,Magento_CatalogWidget
-Root,Radice,module,Magento_Catalog
 Delete,Elimina,module,Magento_Catalog
 Save,Salva,module,Magento_Catalog
 "Use Config Settings","Usa Impostazioni di configurazione",module,Magento_Catalog
