@@ -537,7 +537,6 @@ Search,Cerca,module,Magento_CatalogSearch
 "Modify your search","Modifica la tua ricerca",module,Magento_CatalogSearch
 name,nome,module,Magento_CatalogSearch
 "Don't see what you're looking for?","Non trovi quello che stai cercando?",module,Magento_CatalogSearch
-Root,Radice,module,Magento_Catalog
 "Save Category","Salva la categoria",module,Magento_Catalog
 "Delete Category","Elimina categoria",module,Magento_Catalog
 "New Subcategory","Nuova sottocategoria",module,Magento_Catalog
