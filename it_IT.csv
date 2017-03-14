@@ -740,7 +740,6 @@ name,nome,module,Magento_CatalogSearch
 "Out of stock","Non Disponibile",module,Magento_CatalogWidget
 "Add to Wish List","Aggiungi alla lista desideri",module,Magento_CatalogWidget
 "Add to Compare","Aggiungi al confronto",module,Magento_CatalogWidget
-Root,Radice,module,Magento_Catalog
 "Save Category","Salva la categoria",module,Magento_Catalog
 "Delete Category","Elimina categoria",module,Magento_Catalog
 "New Subcategory","Nuova sottocategoria",module,Magento_Catalog
