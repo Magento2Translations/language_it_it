@@ -4935,8 +4935,8 @@ Rate,Aliquota,module,Magento_TaxImportExport
 "Export Tax Rates","Esporta aliquote fiscali",module,Magento_TaxImportExport
 "Tax Rate Information","Informazioni aliquota fiscale",module,Magento_Tax
 "Tax Identifier","Identificatore tassa",module,Magento_Tax
-"Zip/Post is Range","Cap è un intervallo",module,Magento_Tax
-"Zip/Post Code","Codice Cap",module,Magento_Tax
+"Zip/Post is Range","Intervallo Codice Postale",module,Magento_Tax
+"Zip/Post Code","Codice Postale",module,Magento_Tax
 "'*' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.","' *'-corrisponde a qualsiasi; 'xyz *' - corrisponde a qualsiasi che inizia con 'xyz' e non sono più lunghi di %1.",module,Magento_Tax
 "Range From","Intervallo da",module,Magento_Tax
 "Range To","Intervallo a",module,Magento_Tax
@@ -4947,7 +4947,7 @@ Country,Paese,module,Magento_Tax
 "Add New Tax Rate","Aggiungi nuova aliquota fiscale",module,Magento_Tax
 Back,Indietro,module,Magento_Tax
 "Delete Rate","Elimina aliquota",module,Magento_Tax
-"Are you sure you want to do this?","Sei sicuro di che voler fare questo?",module,Magento_Tax
+"Are you sure you want to do this?","Sei sicuro di voler fare questo?",module,Magento_Tax
 "Save Rate","Salva aliquota",module,Magento_Tax
 "Manage Tax Rules","Gestisci regole fiscali",module,Magento_Tax
 "Add New Tax Rule","Aggiungi nuova regola fiscale",module,Magento_Tax
@@ -4957,7 +4957,7 @@ Back,Indietro,module,Magento_Tax
 "Tax Rule Information","Informazioni aliquota fiscale",module,Magento_Tax
 Name,Nome,module,Magento_Tax
 "Customer Tax Class","Classe fiscale cliente",module,Magento_Tax
-"Product Tax Class","Classe fiscale prodotto",module,Magento_Tax
+"Product Tax Class","Classe fiscale del prodotto",module,Magento_Tax
 "Tax Rate","Aliquota fiscale",module,Magento_Tax
 Priority,Priorità,module,Magento_Tax
 "Tax rates at the same priority are added, others are compounded.","Aliquote fiscali con la stessa priorità sono stati aggiunti, gli altri sono aggravati.",module,Magento_Tax
