@@ -5634,6 +5634,7 @@ Cancel,Annulla,module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.","Hai già un account con noi. Accedi o continua come ospite.",module,Magento_Checkout
 item,elemento,module,Magento_Checkout
 items,elementi,module,Magento_Checkout
+"Go to Checkout","Vai al Checkout",module,Magento_Checkout
 "See Details","Vedi Dettagli",module,Magento_Checkout
 "Options Details","Dettagli Opzioni",module,Magento_Checkout
 Remove,Elimina,module,Magento_Checkout
