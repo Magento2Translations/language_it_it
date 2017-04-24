@@ -438,6 +438,7 @@ Authorize,Autorizza,module,Magento_Braintree
 "Please, enter valid Card Verification Number","Per favore inserire un numero di verifica valido (CVN)",module,Magento_Braintree
 ending,"sto terminando",module,Magento_Braintree
 expires,scadenza,module,Magento_Braintree
+"PayPal Account","Conto PayPal",module,Magento_Braintree
 Actions,Azioni,module,Magento_Braintree
 Delete,Elimina,module,Magento_Braintree
 "Percent Discount","Percentuale sconto",module,Magento_Bundle
@@ -6228,6 +6229,7 @@ Environment,Ambiente,module,Magento_Braintree
 "Threshold Amount","Importo soglia",module,Magento_Braintree
 "Verify for Applicable Countries","Verifica per paesi applicabili",module,Magento_Braintree
 "Verify for Specific Countries","Verifica per determinati paesi",module,Magento_Braintree
+Phone,"Numero di telefono",module,Magento_Braintree
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Applicare i filtri al fine di ottenere i risultati. Verranno visualizzati solo i primi 100 record nella griglia, sarai in grado di scaricare la versione completa del report in formato .csv.",module,Magento_Braintree
 Select...,Seleziona...,module,Magento_Braintree
 Status,Stato,module,Magento_Braintree
