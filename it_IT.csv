@@ -5636,6 +5636,7 @@ Cancel,Annulla,module,Magento_Checkout
 item,elemento,module,Magento_Checkout
 items,elementi,module,Magento_Checkout
 "Go to Checkout","Vai al Checkout",module,Magento_Checkout
+"View and edit cart","Visualizza e modifica il carrello",module,Magento_Checkout
 "See Details","Vedi Dettagli",module,Magento_Checkout
 "Options Details","Dettagli Opzioni",module,Magento_Checkout
 Remove,Elimina,module,Magento_Checkout
