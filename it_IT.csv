@@ -5660,6 +5660,7 @@ Next,Successivo,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Spiacente, al momento nessun preventivo è disponibile per questo ordine",module,Magento_Checkout
 "Order Summary","Riepilogo Ordine",module,Magento_Checkout
 "Item in Cart","Articoli nel Carrello",module,Magento_Checkout
+"Items in Cart","Articoli nel Carrello",module,Magento_Checkout
 "View Details","Vedi Dettagli",module,Magento_Checkout
 "Contact Form","Modulo di Contatto",module,Magento_Contact
 "Name: %name","Nome: %name",module,Magento_Contact
