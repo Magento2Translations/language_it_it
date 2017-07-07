@@ -47,6 +47,7 @@ Close,Chiudi,module,Magento_AdminNotification
 "Order saving error: %1","Errore salvataggio ordine: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Si prega di scegliere un metodo di pagamento.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","Non possiamo elaborare il vostro ordine in questo momento. Si prega di riprovare più tardi.",module,Magento_Authorizenet
+"An error occurred on the server. Please try to place the order again.","Si è verificato un errore sul server. Provare ad effettuare nuovamente l'ordine.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","Carta di credito: xxxx-%1",module,Magento_Authorizenet
 "amount %1","importo %1",module,Magento_Authorizenet
 failed.,"non riuscito.",module,Magento_Authorizenet
@@ -439,6 +440,7 @@ Authorize,Autorizza,module,Magento_Braintree
 ending,"sto terminando",module,Magento_Braintree
 expires,scadenza,module,Magento_Braintree
 "PayPal Account","Conto PayPal",module,Magento_Braintree
+"PayPal Logo","Logo PayPal",module,Magento_Braintree
 Actions,Azioni,module,Magento_Braintree
 Delete,Elimina,module,Magento_Braintree
 "Percent Discount","Percentuale sconto",module,Magento_Bundle
@@ -896,6 +898,7 @@ Catalog,Catalogo,module,Magento_Catalog
 "You saved the product attribute.","Hai salvato l'attributo del prodotto.",module,Magento_Catalog
 "An attribute with this code already exists.","Esiste già un attributo con questo codice.",module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","Esiste già un attributo con lo stesso codice (%1).",module,Magento_Catalog
+"The value of Admin must be unique.","Il valore di Admin deve essere univoco.",module,Magento_Catalog
 "You duplicated the product.","Hai duplicato il prodotto.",module,Magento_Catalog
 "This product doesn't exist.","Questo prodotto non esiste.",module,Magento_Catalog
 "Invalid product id. Should be numeric value greater than 0","Id prodotto non valido. Dovrebbe essere un valore numerico maggiore di 0",module,Magento_Catalog
@@ -1318,7 +1321,9 @@ State/Province,Stato/Provincia,module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","Qualcosa è andato storto durante l'elaborazione del tuo ordine. Si prega di riprovare più tardi.",module,Magento_Checkout
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 non estende \Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
 "Payment Method","Metodo di pagamento",module,Magento_Checkout
+"Payment Page","Pagina di pagamento",module,Magento_Checkout
 "We can't find the product.","Impossibile trovare il prodotto.",module,Magento_Checkout
+"We found an invalid request for adding product to quote.","Richiesta non valida per aggiungere il prodotto al preventivo.",module,Magento_Checkout
 "The product does not exist.","Il prodotto non esiste.",module,Magento_Checkout
 "We don't have some of the products you want.","Alcuni dei prodotti da te richiesti non sono disponibili.",module,Magento_Checkout
 "We don't have as many of some products as you want.","Alcuni dei prodotti da te richiesti non sono presenti nella quantità desiderata.",module,Magento_Checkout
@@ -1327,6 +1332,7 @@ State/Province,Stato/Provincia,module,Magento_Checkout
 "This quote item does not exist.","Questo elemento preventivo non esiste.",module,Magento_Checkout
 "Display number of items in cart","Mostra il numero di articoli nel carrello",module,Magento_Checkout
 "Display item quantities","Mostra quantità articolo",module,Magento_Checkout
+"An error occurred on the server. Please try to place the order again.","Si è verificato un errore sul server. Provare ad effettuare nuovamente l'ordine.",module,Magento_Checkout
 "Shipping address is not set","L'indirizzo di spedizione non è impostato",module,Magento_Checkout
 "Unable to save shipping information. Please check input data.","Impossibile salvare le informazioni di spedizione. Controllare i dati inseriti.",module,Magento_Checkout
 "Carrier with such method not found: %1, %2","Trasporto con tale metodo non trovato: %1, %2",module,Magento_Checkout
@@ -1524,6 +1530,8 @@ Yes,Sì,module,Magento_Config
 Specified,Specificato,module,Magento_Config
 "Config form fieldset clone model required to be able to clone fields","Model clone fieldset form config richiede l'abilitazione della clonazione dei campi",module,Magento_Config
 "Invalid XML in file %1:\n%2","XML non valido nel file %1:\n%2",module,Magento_Config
+"'There is no defined type ' .","'Non c'è nessun tipo definito'.",module,Magento_Config
+"'Object is not instance of ' .","'Oggetto non è istanza di'.",module,Magento_Config
 "some prefix","alcuni prefissi",module,Magento_Config
 "element label","etichetta elemento",module,Magento_Config
 "element hint","suggerimento elemento",module,Magento_Config
@@ -1551,6 +1559,8 @@ Summary,Riepilogo,module,Magento_ConfigurableProduct
 "Choose an Option...","Scegli un'opzione...",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products.","Questo attributo è utilizzato nei prodotti configurabili.",module,Magento_ConfigurableProduct
 "Product has been already attached","Il prodotto è già stato associato",module,Magento_ConfigurableProduct
+"Parent product does not have configurable product options","Il prodotto padre non ha il valore di attributo %1",module,Magento_ConfigurableProduct
+"Child product does not have attribute value %1","Il prodotto figlio non ha il valore di attributo %1",module,Magento_ConfigurableProduct
 "Product with specified sku: %1 is not a configurable product","Il prodotto con lo sku specificato: %1 non è un prodotto configurabile",module,Magento_ConfigurableProduct
 "Requested option doesn't exist","L'opzione richiesta non esiste",module,Magento_ConfigurableProduct
 "Requested option doesn't exist: %1","L'opzione richiesta non esiste: %1",module,Magento_ConfigurableProduct
@@ -1639,6 +1649,8 @@ Select,Seleziona,module,Magento_ConfigurableProduct
 "Remove Product","Rimuovere il prodotto",module,Magento_ConfigurableProduct
 "Create Product Configurations","Crea configurazioni prodotto",module,Magento_ConfigurableProduct
 Cancel,Annulla,module,Magento_ConfigurableProduct
+"Special Price","Prezzo speciale",module,Magento_ConfigurableProduct
+"Regular Price","Prezzo normale",module,Magento_ConfigurableProduct
 "Page not found.","Pagina non trovata.",module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Grazie per averci contattato con i vostri commenti e domande. Vi risponderemo al più presto.",module,Magento_Contact
 "We can't process your request right now. Sorry, that's all we know.","Al momento è impossibile elaborare la richiesta. Siamo spiacenti, questo è tutto quello che sappiamo.",module,Magento_Contact
@@ -1836,6 +1848,7 @@ Download,Scarica,module,Magento_Customer
 "Please correct the quote items and try again.","Correggi gli elementi del preventivo e riprova.",module,Magento_Customer
 "You have revoked the customer's tokens.","Hai revocato i token del cliente.",module,Magento_Customer
 "We can't find a customer to revoke.","Non riusciamo a trovare un cliente per la revoca.",module,Magento_Customer
+"Something went wrong while saving file.","Errore durante il salvataggio file.",module,Magento_Customer
 "You deleted the customer group.","Hai eliminato il gruppo clienti.",module,Magento_Customer
 "The customer group no longer exists.","Il gruppo clienti non esiste più.",module,Magento_Customer
 Customers,Clienti,module,Magento_Customer
@@ -1893,6 +1906,10 @@ Global,Globale,module,Magento_Customer
 "The password can not begin or end with a space.","La password non può iniziare o terminare con uno spazio.",module,Magento_Customer
 "ALL GROUPS","TUTTI I GRUPPI",module,Magento_Customer
 "No such entity with %fieldName = %fieldValue, %field2Name = %field2Value","Nessun tale entità con %fieldName = %fieldValue, %field2Name = %field2Value",module,Magento_Customer
+"File can not be saved to the destination folder.","Il file non può essere salvato nella cartella di destinazione.",module,Magento_Customer
+"Unable to create directory %1.","Impossibile creare la directory: %1.",module,Magento_Customer
+"Destination folder is not writable or does not exists.","La cartella di destinazione non è scrivibile o non esiste.",module,Magento_Customer
+"Something went wrong while saving the file.","Errore durante il salvataggio del file.",module,Magento_Customer
 "Attribute object is undefined","L'oggetto attributo non è definito",module,Magento_Customer
 """%1"" invalid type entered.","E' stato inserito un tipo non valido ""%1""",module,Magento_Customer
 """%1"" contains non-alphabetic or non-numeric characters.","""%1"" contiene caratteri non alfabetici o non numerici.",module,Magento_Customer
@@ -2045,6 +2062,7 @@ Gender,Genere,module,Magento_Customer
 Name,Nome,module,Magento_Customer
 "Tax/VAT number","Partita IVA",module,Magento_Customer
 "Cannot switch into given mode ""%1""","Non è possibile passare nella modalità ""%1""",module,Magento_Deploy
+"Wrong deploy strategy type: %1","Tipo strategia di deploy errato: %1",module,Magento_Deploy
 "Format for IDE '%1' is not supported","Formato per IDE '%1' non supportato",module,Magento_Developer
 "Client side less compilation","Compliazione less lato cliente",module,Magento_Developer
 "Server side less compilation","Compilazione less lato server",module,Magento_Developer
@@ -2437,6 +2455,7 @@ Direct,Diretto,module,Magento_Fedex
 Indirect,Indiretto,module,Magento_Fedex
 Pounds,Sterline,module,Magento_Fedex
 Kilograms,Chilogrammi,module,Magento_Fedex
+"Invalid response from carrier","Risposta non valida dal vettore",module,Magento_Fedex
 "For some reason we can't retrieve tracking info right now.","Per qualche motivo non siamo in grado di recuperare le informazioni di tracciamento in questo momento.",module,Magento_Fedex
 "Empty response","Risposta vuota",module,Magento_Fedex
 None,Nessuno,module,Magento_Fedex
@@ -3469,6 +3488,7 @@ Description,Descrizione,module,Magento_ProductVideo
 Role,Ruolo,module,Magento_ProductVideo
 "YouTube and Vimeo supported.","YouTube e Vimeo supportati.",module,Magento_ProductVideo
 "Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Vimeo supportato. <br />  Per aggiungere video YouTube,  inserisci prima <a href=""%1"">la chiave API di YouTube</a>.",module,Magento_ProductVideo
+"Protocol isn't allowed","Protocollo non è consentito",module,Magento_ProductVideo
 "Could not get preview image information. Please check your connection and try again.","Non si possono ottenere le informazioni sull'anteprima dell'immagine. Si prega di controllare la connessione e riprovare.",module,Magento_ProductVideo
 "Add Video","Aggiungi Video",module,Magento_ProductVideo
 "Browse to find or drag image here","Sfoglia o trascina l'immagine qui",module,Magento_ProductVideo
@@ -3522,6 +3542,7 @@ Subtotal,Subtotale,module,Magento_Quote
 "Cannot assign customer to the given cart. The cart belongs to different store.","Non è possibile assegnare il cliente al dato carrello. Il carrello appartiene a un negozio differente.",module,Magento_Quote
 "Cannot assign customer to the given cart. The cart is not anonymous.","Non è possibile assegnare il cliente al dato carrello. Il carrello non è anonimo.",module,Magento_Quote
 "Cannot assign customer to the given cart. Customer already has active cart.","Non è possibile assegnare il cliente al carrello dato. Il cliente ha già il carrello attivo.",module,Magento_Quote
+"An error occurred on the server. Please try to place the order again.","Si è verificato un errore sul server. Provare ad effettuare nuovamente l'ordine.",module,Magento_Quote
 "Only 1 shipping assignment can be set","Può essere impostato una sola assegnazione di spedizione",module,Magento_Quote
 "This item price or quantity is not valid for checkout.","Questo prezzo o quantità dell'elemento non è valida per il checkout.",module,Magento_Quote
 "Please check the shipping address information. %1","Controlla le informazioni dell'indirizzo di spedizione. %1",module,Magento_Quote
@@ -3856,6 +3877,7 @@ Category,Categoria,module,Magento_Rule
 "Open Chooser","Selezione aperta",module,Magento_Rule
 "Unknown condition operator","Operatore condizione sconosciuto",module,Magento_Rule
 "There is no information about associated entity type ""%1"".","Non c'è nessuna informazione sul tipo di entità associato ""%1"".",module,Magento_Rule
+"The ""%1"" product is not part of the current creditmemo.","Il prodotto ""%1"" non è parte del creditmemo corrente.",module,Magento_SalesInventory
 "Cart Price Rules","Regola di prezzo del carrello",module,Magento_SalesRule
 "Add New Rule","Aggiungi nuova regola",module,Magento_SalesRule
 Delete,Elimina,module,Magento_SalesRule
@@ -4288,6 +4310,8 @@ Canceled,Cancellato,module,Magento_Sales
 "This order already has associated customer account","Questo ordine ha già associato un account cliente",module,Magento_Sales
 Paid,Pagato,module,Magento_Sales
 "We cannot register an existing invoice","Impossibile registrare una fattura esistente",module,Magento_Sales
+"Order Id is required for invoice document","L'id ordine è obbligatorio per la fattura",module,Magento_Sales
+"The quantity to invoice must not be greater than the uninvoiced quantity for product SKU ""%1"".","La quantità da fatturare non deve essere maggiore della quantità non fatturata per prodotto con SKU ""%1"".",module,Magento_Sales
 "ID required","ID obbligatorio",module,Magento_Sales
 "Unknown Status","Stato sconosciuto",module,Magento_Sales
 Ordered,Ordinato,module,Magento_Sales
@@ -4359,12 +4383,15 @@ title,titolo,module,Magento_Sales
 "The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.","Il modello totale PDF %1 deve essere o estendere \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.",module,Magento_Sales
 "We cannot register an existing shipment","Non possiamo registrare una spedizione esistente",module,Magento_Sales
 "Parent shipment cannot be loaded for track object.","Spedizione Parente non può essere caricata per traccia oggetto.",module,Magento_Sales
+"You can't create a shipment without products.","Non puoi creare una spedizione senza prodotti.",module,Magento_Sales
 "Please enter a tracking number.","Inserisci un numero di tracciamento.",module,Magento_Sales
 "Could not delete shipment","Impossibile eliminare la spedizione",module,Magento_Sales
 "Could not save shipment","Non è possibile salvare la spedizione",module,Magento_Sales
 "The last status can't be unassigned from its current state.","L'ultimo status non può essere disassegnato dal suo stato corrente.",module,Magento_Sales
 "Status can't be unassigned, because it is used by existing order(s).","Lo status non può essere disassegnato perchè è utilizzato da ordini esistenti.",module,Magento_Sales
 "The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","Il modello totale dovrebbe essere esteso da \Magento\Sales\Model\Order\Total\AbstractTotal.",module,Magento_Sales
+"A shipment cannot be created when an order has a status of %1","Una spedizione non può essere creata quando l'ordine è in stato di %1",module,Magento_Sales
+"The order does not allow a shipment to be created.","L'ordine non consente di creare una spedizione.",module,Magento_Sales
 "We cannot determine the field name.","Non è possibile determinare il nome del campo.",module,Magento_Sales
 City,Città,module,Magento_Sales
 Company,Società,module,Magento_Sales
@@ -4407,6 +4434,7 @@ Closed,Chiuso,module,Magento_Sales
 New,Nuovo,module,Magento_Sales
 "test message","messaggio di prova",module,Magento_Sales
 "Email has not been sent","L'email non è stata inviata",module,Magento_Sales
+"Authorized amount of %1.","Importo autorizzato di %1.",module,Magento_Sales
 "We will authorize %1 after the payment is approved at the payment gateway.","Autorizzeremo %1 dopo che il pagamento viene approvato presso il gateway di pagamento.",module,Magento_Sales
 "Authorized amount of %1","Importo autorizzato di %1",module,Magento_Sales
 View,Mostra,module,Magento_Sales
@@ -4904,6 +4932,7 @@ Swatch,"Anteprima di selezione",module,Magento_Swatches
 "Add Swatch","Aggiungi anteprima di selezione",module,Magento_Swatches
 "Sort Option","Opzioni di ordinamento",module,Magento_Swatches
 Delete,Elimina,module,Magento_Swatches
+"The value of Admin must be unique.","Il valore di Admin deve essere univoco.",module,Magento_Swatches
 "Choose a color","Scegli un colore",module,Magento_Swatches
 "Upload a file","Carica un file",module,Magento_Swatches
 Clear,Cancella,module,Magento_Swatches
@@ -5420,12 +5449,17 @@ Yes,Sì,module,Magento_Variable
 "No token found.","Nessun token trovato.",module,Magento_Vault
 "Wrong request.","Richiesta errata.",module,Magento_Vault
 "Deletion failure. Please try again.","Errore di eliminazione. Si prega di riprovare.",module,Magento_Vault
+"Stored Payment Method was successfully removed","Il metodo di pagamento memorizzato è stato rimosso correttamente",module,Magento_Vault
+"Stored Payment Methods","Metodi di pagamento memorizzati",module,Magento_Vault
+"No available payment tokens for specified order payment.","Nessun token di pagamento disponibile per il pagamento dell'ordine specificato.",module,Magento_Vault
 "Card Number","Numero di carta",module,Magento_Vault
 "Expiration Date","Data di scadenza",module,Magento_Vault
 Type,Tipo,module,Magento_Vault
+"You have no stored payment methods.","Non hai nessun metodi di pagamento memorizzati.",module,Magento_Vault
 ending,fine,module,Magento_Vault
 Actions,Azioni,module,Magento_Vault
 Delete,Elimina,module,Magento_Vault
+"PayPal Account","Account PayPal",module,Magento_Vault
 "Consumer is not authorized to access %resources","Il cliente non è autorizzato ad accedere a %resources",module,Magento_Webapi
 "Operation allowed only in HTTPS","Operazione consentita solo in HTTPS",module,Magento_Webapi
 "Cannot perform GET operation with store code 'all'","Impossibile eseguire l'operazione GET con codice negozio 'tutti'",module,Magento_Webapi
@@ -5866,6 +5900,7 @@ Close,Chiudi,module,Magento_CheckoutAgreements
 "Provided Zip/Postal Code seems to be invalid.","Il CAP fornito sembra non essere valido.",module,Magento_Checkout
 "If you believe it is the right one you can ignore this notice.","Se credi che sia quello giusto puoi ignorare questo avviso.",module,Magento_Checkout
 "Review & Payments","Recensione & Pagamenti",module,Magento_Checkout
+"Select a new payment method","Selezionare un nuovo metodo di pagamento",module,Magento_Checkout
 Shipping,Spedizione,module,Magento_Checkout
 "Save Address","Salva indirizzo",module,Magento_Checkout
 "We could not detect a size.","Non è possibile individuare una dimensione.",module,Magento_Cms
@@ -5903,6 +5938,11 @@ Allow,Permetti,module,Magento_Integration
 Done,Fatto,module,Magento_Integration
 "We can't complete your order because you don't have a payment method set up.","Non è possibile completare l'ordine perchè non hai un metodo di pagamento installato.",module,Magento_Multishipping
 "Please choose a payment method.","Si prega di scegliere un metodo di pagamento.",module,Magento_Multishipping
+"Please enter a valid credit card type number.","Inserisci un numero di tipo di carta di credito valido.",module,Magento_Payment
+"Please enter a valid credit card number.","Inserire un numero di carta di credito valido.",module,Magento_Payment
+"Incorrect credit card expiration month.","Mese di scadenza della carta di credito non valido.",module,Magento_Payment
+"Incorrect credit card expiration year.","Anno di scadenza della carta di credito non valido.",module,Magento_Payment
+"An error occurred on the server. Please try to place the order again.","Si è verificato un errore sul server. Provare ad effettuare nuovamente l'ordine.",module,Magento_Payment
 "Sorry, something went wrong.","Siamo spiacenti, qualcosa e andato storto.",module,Magento_Paypal
 "Sorry, something went wrong. Please try again later.","Siamo spiacenti, qualcosa è andato storto. Si prega di riprovare più tardi.",module,Magento_Paypal
 "Video Error","Errore video",module,Magento_ProductVideo
@@ -6202,6 +6242,7 @@ Size(bytes),Dimensione(bytes),module,Magento_Backup
 Type,Tipo,module,Magento_Backup
 Download,Scarica,module,Magento_Backup
 Action,Azione,module,Magento_Backup
+"Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase.","Accett carte di credito e PayPal nel tuo negozio Magento. <br/> Nessuna installazione o costi mensili e i vostri clienti non lasceranno mai il tuo negozio per completare l'acquisto.",module,Magento_Braintree
 "Enable this Solution","Abilita questa soluzione",module,Magento_Braintree
 "Enable PayPal through Braintree","Abilita PayPal attraverso Braintree",module,Magento_Braintree
 "Basic Braintree Settings","Impostazioni di base Braintree",module,Magento_Braintree
@@ -6227,11 +6268,14 @@ Environment,Ambiente,module,Magento_Braintree
 "Require Customer's Billing Address","Richiede l'indirizzo di fatturazione del cliente",module,Magento_Braintree
 "Allow to Edit Shipping Address Entered During Checkout on PayPal Side","Consente di modificare l'indirizzo di spedizione inserito durante il checkout lato PayPal",module,Magento_Braintree
 "Display on Shopping Cart","Mostra nel carrello",module,Magento_Braintree
+"Skip Order Review","Salta revisione ordine",module,Magento_Braintree
 "3D Secure Verification Settings","Impostazioni di verifica 3D Secure",module,Magento_Braintree
 "3D Secure Verification","Verifica 3D Secure",module,Magento_Braintree
 "Threshold Amount","Importo soglia",module,Magento_Braintree
 "Verify for Applicable Countries","Verifica per paesi applicabili",module,Magento_Braintree
 "Verify for Specific Countries","Verifica per determinati paesi",module,Magento_Braintree
+"Dynamic Descriptors","Descrittori dinamici",module,Magento_Braintree
+Name,Nome,module,Magento_Braintree
 Phone,"Numero di telefono",module,Magento_Braintree
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Applicare i filtri al fine di ottenere i risultati. Verranno visualizzati solo i primi 100 record nella griglia, sarai in grado di scaricare la versione completa del report in formato .csv.",module,Magento_Braintree
 Select...,Seleziona...,module,Magento_Braintree
@@ -6449,6 +6493,7 @@ Details,Dettagli,module,Magento_Catalog
 "Checkout Options","Opzioni checkout",module,Magento_Checkout
 "Enable Onepage Checkout","Abilita Onepage Checkout",module,Magento_Checkout
 "Allow Guest Checkout","Permetti checkout agli ospiti",module,Magento_Checkout
+"Display Billing Address On","Visualizzazione indirizzo di fatturazione",module,Magento_Checkout
 "Quote Lifetime (days)","Durata preventivo (giorni)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","Dopo aver aggiunto un reindirizzamento di prodotto al carrello",module,Magento_Checkout
 "My Cart Link","Link Carrello",module,Magento_Checkout
@@ -6961,6 +7006,7 @@ Manage,Gestisci,module,Magento_Paypal
 "Merchant Location","Posizione venditore",module,Magento_Paypal
 "Merchant Country","Paese venditore",module,Magento_Paypal
 "If not specified, Default Country from General Config will be used","Se non specificato, verrà utilizzato il paese predefinito dalla configurazione generale",module,Magento_Paypal
+"Other Payment Methods:","Altri metodi di pagamento:",module,Magento_Paypal
 "PayPal Express Checkout","Paypal Express Checkout",module,Magento_Paypal
 "Add another payment method to your existing solution or as a stand-alone option.","Aggiungi un altro metodo di pagamento alla soluzione esistente o come opzione stand-alone.",module,Magento_Paypal
 "Choose a secure bundled payment solution for your business.","Scegli una soluzione di pagamento sicura in bundle per il tuo business.",module,Magento_Paypal
