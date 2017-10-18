@@ -5779,7 +5779,7 @@ Developer,Sviluppatore,module,Magento_Backend
 "Image Processing Settings","Impostazioni di elaborazione immagine",module,Magento_Backend
 "Image Adapter","Adattatore immagine",module,Magento_Backend
 "Static Files Settings","Impostazioni file statici",module,Magento_Backend
-"Sign Static Files","Accedi ai file statici",module,Magento_Backend
+"Sign Static Files","Versionamento file statici",module,Magento_Backend
 "Country Options","Opzioni Paese",module,Magento_Backend
 "Allow Countries","Paesi consentiti",module,Magento_Backend
 "Default Country","Paese predefinito",module,Magento_Backend
