@@ -4489,6 +4489,7 @@ Tax,Tassa,module,Magento_Sales
 "Incl. Tax","Tasse incl.",module,Magento_Sales
 title,titolo,module,Magento_Sales
 "The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.","Il modello totale PDF %1 deve essere o estendere \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.",module,Magento_Sales
+"Received check doesn't match interface","Il check ricevuto non corrisponde all'interfaccia",module,Magento_Sales
 "We cannot register an existing shipment","Non possiamo registrare una spedizione esistente",module,Magento_Sales
 "Could not delete the shipment comment.","Impossibile cancellare il commento della spedizione.",module,Magento_Sales
 "Could not save the shipment comment.","Impossibile salvare il commento della spedizione.",module,Magento_Sales
@@ -5418,6 +5419,7 @@ Custom,Personalizzato,module,Magento_UrlRewrite
 "Do not use two or more consecutive slashes in the url rewrite suffix.","Non utilizzare due o più slash consecutivi nel suffisso dell'url rewrite.",module,Magento_UrlRewrite
 "Anchor symbol (#) is not supported in url rewrite suffix.","Il simbolo di ancoraggio (#) non è supportato per il suffisso url rewrite.",module,Magento_UrlRewrite
 "URL key for specified store already exists","Esiste già una URL key per il negozio specificato",module,Magento_UrlRewrite
+"Exception instance doesn't match %1 type","L'istanza dell'eccezione non corrisponde al tipo %1",module,Magento_UrlRewrite
 "Temporary (302)","Temporaneo (302)",module,Magento_UrlRewrite
 "Permanent (301)","Permanente (301)",module,Magento_UrlRewrite
 "Request Path for Specified Store","Percorso richiesto per negozio specificato",module,Magento_UrlRewrite
