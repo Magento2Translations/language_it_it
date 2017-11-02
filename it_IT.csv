@@ -7046,6 +7046,8 @@ Manage,Gestisci,module,Magento_Paypal
 "Merchant Location","Posizione venditore",module,Magento_Paypal
 "Merchant Country","Paese venditore",module,Magento_Paypal
 "If not specified, Default Country from General Config will be used","Se non specificato, verrà utilizzato il paese predefinito dalla configurazione generale",module,Magento_Paypal
+"Recommended Solutions:","Soluzioni consigliate:",module,Magento_Paypal
+"Other PayPal Payment Solutions:","Altre soluzioni di pagamento PayPal:",module,Magento_Paypal
 "Other Payment Methods:","Altri metodi di pagamento:",module,Magento_Paypal
 "PayPal Express Checkout","Paypal Express Checkout",module,Magento_Paypal
 "Add another payment method to your existing solution or as a stand-alone option.","Aggiungi un altro metodo di pagamento alla soluzione esistente o come opzione stand-alone.",module,Magento_Paypal
