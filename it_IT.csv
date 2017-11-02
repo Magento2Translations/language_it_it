@@ -3534,6 +3534,7 @@ Duration:,Durata:,module,Magento_ProductVideo
 "Shipping address is not set","L'indirizzo di spedizione non è impostato",module,Magento_Quote
 "The requested Payment Method is not available.","Il metodo di pagamento richiesto non è disponibile.",module,Magento_Quote
 "We found an invalid request for adding product to quote.","Abbiamo trovato una richiesta non valida per l'aggiunta di prodotti al preventivo.",module,Magento_Quote
+"Product that you are trying to add is not available.","Prodotto che si sta tentando di aggiungere non è disponibile.",module,Magento_Quote
 "This is the wrong quote item id to update configuration.","Questo è un id elemento del preventivo errato per aggiornare la configurazione.",module,Magento_Quote
 "This shipping method is not available. To use this shipping method, please contact us.","Questo metodo di spedizione non è disponibile. Per utilizzare questo metodo di spedizione, vi preghiamo di contattarci.",module,Magento_Quote
 "The address model is not defined.","Il modello di indirizzo non è definito.",module,Magento_Quote
@@ -7052,6 +7053,8 @@ Manage,Gestisci,module,Magento_Paypal
 "Merchant Location","Posizione venditore",module,Magento_Paypal
 "Merchant Country","Paese venditore",module,Magento_Paypal
 "If not specified, Default Country from General Config will be used","Se non specificato, verrà utilizzato il paese predefinito dalla configurazione generale",module,Magento_Paypal
+"Recommended Solutions:","Soluzioni consigliate:",module,Magento_Paypal
+"Other PayPal Payment Solutions:","Altre soluzioni di pagamento PayPal:",module,Magento_Paypal
 "Other Payment Methods:","Altri metodi di pagamento:",module,Magento_Paypal
 "PayPal Express Checkout","Paypal Express Checkout",module,Magento_Paypal
 "Add another payment method to your existing solution or as a stand-alone option.","Aggiungi un altro metodo di pagamento alla soluzione esistente o come opzione stand-alone.",module,Magento_Paypal
@@ -7494,6 +7497,7 @@ Configuration,Configurazione,module,Magento_Store
 "Database DDL operations","Operazioni DDL database",module,Magento_Store
 "Results of DDL queries, such as describing tables or indexes","RIsultati delle query DDL, ad esempio descrivendo tabelle o indici",module,Magento_Store
 "Swatches per Product","Anteprime di selezione per prodotto",module,Magento_Swatches
+"Show Swatches in Product List","Mostra Swatches in elenco prodotti",module,Magento_Swatches
 "Swatch Image","Immagine anteprima di selezione",module,Magento_Swatches
 Image,Immagine,module,Magento_Swatches
 "Allowed file types: jpeg, gif, png.","Tipi di file consentiti: jpeg, gif, png.",module,Magento_Swatches
