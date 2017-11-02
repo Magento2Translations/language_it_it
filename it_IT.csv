@@ -2447,6 +2447,7 @@ label,etichetta,module,Magento_Eav
 "Wrong attribute set ID","ID set attributi errato",module,Magento_Eav
 "Wrong attribute group ID","ID gruppo attributi errato",module,Magento_Eav
 "An attribute code must not be less than %1 and more than %2 characters.","Un codice di attributo non deve essere inferiore a %1 o maggiore di %2 caratteri.",module,Magento_Eav
+"Attribute with ID: ""%1"" does not exist","L'attributo con id ""%1"" non esiste",module,Magento_Eav
 "AttributeSet does not exist.","AttributeSet non esiste.",module,Magento_Eav
 hello,ciao,module,Magento_Eav
 "Some internal exception message.","Qualche messaggio di eccezione interno.",module,Magento_Eav
@@ -2517,6 +2518,7 @@ City,Città,module,Magento_Email
 "Design params must be set before calling this method","Parametri Design devono essere impostati prima di chiamare questo metodo",module,Magento_Email
 "CSS inlining error:","Errore CSS Inline:",module,Magento_Email
 "Error filtering template: %s","Errore sul filtro template: %s",module,Magento_Email
+"We're sorry, an error has occurred while generating this content.","Siamo spiacenti, si è verificato un errore durante la generazione di questo contenuto.",module,Magento_Email
 "Invalid sender data","Dati mittente non validi",module,Magento_Email
 Title,Titolo,module,Magento_Email
 "Load default template","Carica template predefinito",module,Magento_Email
@@ -3614,6 +3616,7 @@ Duration:,Durata:,module,Magento_ProductVideo
 "Shipping address is not set","L'indirizzo di spedizione non è impostato",module,Magento_Quote
 "The requested Payment Method is not available.","Il metodo di pagamento richiesto non è disponibile.",module,Magento_Quote
 "We found an invalid request for adding product to quote.","Abbiamo trovato una richiesta non valida per l'aggiunta di prodotti al preventivo.",module,Magento_Quote
+"Product that you are trying to add is not available.","Prodotto che si sta tentando di aggiungere non è disponibile.",module,Magento_Quote
 "This is the wrong quote item id to update configuration.","Questo è un id elemento del preventivo errato per aggiornare la configurazione.",module,Magento_Quote
 "This shipping method is not available. To use this shipping method, please contact us.","Questo metodo di spedizione non è disponibile. Per utilizzare questo metodo di spedizione, vi preghiamo di contattarci.",module,Magento_Quote
 "The address model is not defined.","Il modello di indirizzo non è definito.",module,Magento_Quote
@@ -3661,6 +3664,7 @@ Tax,Tassa,module,Magento_Quote
 "Cannot set shipping method. %1","Non è possibile impostare il metodo di spedizione. %1",module,Magento_Quote
 "Shipping method is not applicable for empty cart","Il metodo di spedizione non è applicabile con il carrello vuoto",module,Magento_Quote
 "Cart contains virtual product(s) only. Shipping method is not applicable.","Il carrello contiene solo prodotti virtuali. Il metodo di spedizione non è applicabile.",module,Magento_Quote
+"Minimum Order Amount Exceeded.","Quantità di ordine minimo superato.",module,Magento_Quote
 "New Accounts","Nuovi Account",module,Magento_Reports
 "Customers by number of orders","Clienti per numero di ordini",module,Magento_Reports
 "Customers by Orders Total","Clienti per totale ordini",module,Magento_Reports
@@ -4397,6 +4401,7 @@ Guest,Ospite,module,Magento_Sales
 "Please enter the city.","Inserisci la città.",module,Magento_Sales
 "Please enter the phone number.","Inserisci il numero di telefono.",module,Magento_Sales
 "Please enter the company.","Per favore inserisci l'azienda.",module,Magento_Sales
+"Please enter the fax number.","Inserisci il numero di fax.",module,Magento_Sales
 "Please enter the zip/postal code.","Inserisci il codice postale.",module,Magento_Sales
 "Please enter the country.","Inserisci il paese.",module,Magento_Sales
 "Please enter the state/province.","Inserisci la provincia.",module,Magento_Sales
@@ -5018,7 +5023,12 @@ All,Tutti,module,Magento_Sitemap
 "Requested store is inactive","Lo store richiesto è inattivo",module,Magento_Store
 "Requested store is not found","Lo store richiesto non è stato trovato",module,Magento_Store
 "Environment emulation nesting is not allowed.","Annidamento ambienti di simulazione non consentito.",module,Magento_Store
+"Website was not found","Sito Web non è stato trovato",module,Magento_Store
+"Group was not found","Gruppo non è stato trovato",module,Magento_Store
+"%1 should implement %2","%1 deve implementare %2",module,Magento_Store
+"The following stores are not associated with a root category: ' . . '. For the store to be displayed in the storefront, it must be associated with a root category.","I seguenti negozi non sono associati a una categoria principale: '. . '. Per visualizzare il catalogo nella vetrina, esso deve essere associato a una categoria principale.",module,Magento_Store
 "Invalid scope object","Oggetto ambito non valido",module,Magento_Store
+"Group with the same code","Gruppo con lo stesso codice",module,Magento_Store
 "Store with the same code","Negozio con lo stesso codice",module,Magento_Store
 "Website with the same code","Website con lo stesso codice",module,Magento_Store
 "Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Il codice per il sito web può contenere solo lettere (a-z), numeri (0-9) o underscore (_),' ' e il primo carattere deve essere una lettera.",module,Magento_Store
@@ -5134,6 +5144,7 @@ Tax,Tassa,module,Magento_Tax
 "Edit Tax Rate","Modifica aliquota fiscale",module,Magento_Tax
 "You saved the tax rate.","Hai salvato l'aliquota fiscale.",module,Magento_Tax
 "Tax Rules","Regole fiscali",module,Magento_Tax
+"An error occurred while loading tax rates.","Si è verificato un errore durante il caricamento dell'aliquota fiscale.",module,Magento_Tax
 "The tax rule has been deleted.","La regola fiscale non può essere eliminata.",module,Magento_Tax
 "This rule no longer exists.","Questa regola non esiste più.",module,Magento_Tax
 "Something went wrong deleting this tax rule.","Qualcosa è andata storta durante la regola fiscale.",module,Magento_Tax
@@ -5341,6 +5352,7 @@ Minute,Minuto,module,Magento_Theme
 "Add New %1","Aggiungi nuovo %1",module,Magento_Ui
 "New %1","Nuovo %1",module,Magento_Ui
 "Please select item(s).","Seleziona elementi.",module,Magento_Ui
+"Invalid XML in file %1:\n%2","XML non valido nel file %1:\n%2",module,Magento_Ui
 "Unsupported bookmark action.","Azione di segnalibro non supportato.",module,Magento_Ui
 "Parameter ""class"" must be present.","Parametro ""classe"" deve essere presente.",module,Magento_Ui
 "Parameter ""sortOrder"" must be present.","Parametro ""sortOrder"" deve essere presente.",module,Magento_Ui
@@ -7052,11 +7064,15 @@ Description,Descrizione,module,Magento_Indexer
 Mode,Modalità,module,Magento_Indexer
 Updated,Aggiornato,module,Magento_Indexer
 Extensions,Estensioni,module,Magento_Integration
+"Access Token Expiration","Scadenza Token Accesso",module,Magento_Integration
+"Customer Token Lifetime (hours)","Durata del Token cliente (ore)",module,Magento_Integration
+"Admin Token Lifetime (hours)","Durata del Token Admin (ore)",module,Magento_Integration
 "Cleanup Settings","Pulizia Impostazioni",module,Magento_Integration
 "Cleanup Probability","Probabilità pulizia",module,Magento_Integration
 "Expiration Period","Periodo di scadenza",module,Magento_Integration
 "Consumer Settings","Impostazioni dei consumatori",module,Magento_Integration
 "OAuth consumer credentials HTTP Post timeout","Timeout HTTP Post credenziali OAuth consumer",module,Magento_Integration
+"Maximum Login Failures to Lock Out Account","Numero massimo di accessi non riusciti per il blocco dell'account",module,Magento_Integration
 "Integrations Configuration","Configurazione integrazioni",module,Magento_Integration
 "Integration configuration file","File di configurazione integrazione",module,Magento_Integration
 "Integrations API Configuration","Configurazione API integrazioni",module,Magento_Integration
@@ -7202,6 +7218,8 @@ Manage,Gestisci,module,Magento_Paypal
 "Merchant Location","Posizione venditore",module,Magento_Paypal
 "Merchant Country","Paese venditore",module,Magento_Paypal
 "If not specified, Default Country from General Config will be used","Se non specificato, verrà utilizzato il paese predefinito dalla configurazione generale",module,Magento_Paypal
+"Recommended Solutions:","Soluzioni consigliate:",module,Magento_Paypal
+"Other PayPal Payment Solutions:","Altre soluzioni di pagamento PayPal:",module,Magento_Paypal
 "Other Payment Methods:","Altri metodi di pagamento:",module,Magento_Paypal
 "PayPal Express Checkout","Paypal Express Checkout",module,Magento_Paypal
 "Add another payment method to your existing solution or as a stand-alone option.","Aggiungi un altro metodo di pagamento alla soluzione esistente o come opzione stand-alone.",module,Magento_Paypal
@@ -7629,6 +7647,7 @@ Configuration,Configurazione,module,Magento_Store
 "Results of DDL queries, such as describing tables or indexes","RIsultati delle query DDL, ad esempio descrivendo tabelle o indici",module,Magento_Store
 Swatches,"Anteprima di selezione",module,Magento_Swatches
 "Swatches per Product","Anteprime di selezione per prodotto",module,Magento_Swatches
+"Show Swatches in Product List","Mostra Swatches in elenco prodotti",module,Magento_Swatches
 "Swatch Image","Immagine anteprima di selezione",module,Magento_Swatches
 "Allowed file types: jpeg, gif, png.","Tipi di file consentiti: jpeg, gif, png.",module,Magento_Swatches
 Image,Immagine,module,Magento_Swatches
@@ -7685,6 +7704,7 @@ Empty,Vuoto,module,Magento_Theme
 "1 column","1 colonna",module,Magento_Theme
 Configuration,Configurazione,module,Magento_Theme
 "Default welcome msg!","Testo di benvenuto predefinito!",module,Magento_Theme
+"Copyright © 2013-2017 Magento, Inc. All rights reserved.","Copyright © 2013-2017 Magento, Inc. Tutti i diritti riservati.",module,Magento_Theme
 "Design Config Grid","Griglia di configurazione del Design",module,Magento_Theme
 "Rebuild design config grid index","Rigenera l'indice della griglia di configurazione design",module,Magento_Theme
 "Admin empty","Admin vuoto",module,Magento_Theme
@@ -7692,11 +7712,17 @@ Configuration,Configurazione,module,Magento_Theme
 "Theme Information","Informazioni tema",module,Magento_Theme
 "Other Settings","Altre impostazioni",module,Magento_Theme
 "HTML Head","Head HTML",module,Magento_Theme
+"Allowed file types: ico, png, gif, jpg, jpeg, apng. Not all browsers support all these formats!","Tipi di file consentiti: ico, png, gif, jpg, jpeg, apng. Non tutti i browser supportano tutti questi formati!",module,Magento_Theme
 "Favicon Icon","Icona Favicon",module,Magento_Theme
 "Default Page Title","Titolo pagina predefinito",module,Magento_Theme
+"Page Title Prefix","Prefisso del titolo di pagina",module,Magento_Theme
+"Page Title Suffix","Suffisso del titolo di pagina",module,Magento_Theme
+"Default Meta Description","Meta Descrizione predefinita",module,Magento_Theme
+"Default Meta Keywords","Meta Keywords predefinite",module,Magento_Theme
 "This will be included before head closing tag in page HTML.","Questo sarà incluso prima della chiusura dei tag head nell'HTML della pagina.",module,Magento_Theme
 "Scripts and Style Sheets","Gli Script e i Fogli di Stile",module,Magento_Theme
 "Display Demo Store Notice","Mostra Avviso Negozio Demo",module,Magento_Theme
+"Allowed file types: png, gif, jpg, jpeg.","Tipi di file consentiti: png, gif, jpg, jpeg.",module,Magento_Theme
 "Logo Image","Immagine logo",module,Magento_Theme
 "Logo Attribute Width","Attributo Larghezza logo",module,Magento_Theme
 "Logo Attribute Height","Attributo Altezza logo",module,Magento_Theme
@@ -7707,6 +7733,7 @@ Configuration,Configurazione,module,Magento_Theme
 "Default Robots","Robots Predefiniti",module,Magento_Theme
 "Edit custom instruction of robots.txt File","Modifica l'istruzione personalizzata del file robots.txt",module,Magento_Theme
 "This action will delete your custom instructions and reset robots.txt file to system's default settings.","Questa azione eliminerà le istruzioni personalizzate e ripristinerà il file robots.txt alle impostazioni predefinite del sistema.",module,Magento_Theme
+"Reset To Defaults","Ripristina le impostazioni iniziali",module,Magento_Theme
 Store,Negozio,module,Magento_Theme
 "Store View","Vista Negozio",module,Magento_Theme
 "Skip to Content","Salta al contenuto",module,Magento_Theme
