@@ -553,6 +553,7 @@ Always,Sempre,module,Magento_Captcha
 "Entity type model '%1' is not found","Modello tipo entità '%1' non trovato",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Il modello tipo entità deve essere un'istanza di \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "There are no product types available for export.","Non ci sono tipi di prodotto disponibili per l'esportazione.",module,Magento_CatalogImportExport
+"Entity type model must be an instance of '%1'","Il modello Entity type deve essere un istanza di '%1'",module,Magento_CatalogImportExport
 "Category ""%1"" has not been created.","La categoria ""%1"" non è stata creata.",module,Magento_CatalogImportExport
 "File directory '%1' is not readable.","Directory '%1' non leggibile.",module,Magento_CatalogImportExport
 "File directory '%1' is not writable.","Directory '%1' non scrivibile.",module,Magento_CatalogImportExport
