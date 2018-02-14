@@ -293,9 +293,6 @@ YTD,"Da inizio anno",module,Magento_Backend
 "Admin session lifetime must be greater than or equal to 60 seconds","La durata della sessione dell'amministratore deve essere maggiore o uguale a 60 secondi",module,Magento_Backend
 Order,Ordine,module,Magento_Backend
 "Order #%1","Ordine #%1",module,Magento_Backend
-"Access denied","Accesso negato",module,Magento_Backend
-"Please try to sign out and sign in again.","Prova a disconnetterti ed accedere nuovamente.",module,Magento_Backend
-"If you continue to receive this message, please contact the store owner.","Se continui a ricevere questo messaggio, contatta il proprietario del negozio.",module,Magento_Backend
 "You need more permissions to access this.","Hai bisogno di maggiori permessi per accedere a questo.",module,Magento_Backend
 "Welcome, please sign in","Benvenuto, effettua l'accesso",module,Magento_Backend
 Username,"Nome Utente",module,Magento_Backend
@@ -1395,7 +1392,6 @@ State/Province,Stato/Provincia,module,Magento_Checkout
 Error!,Errore!,module,Magento_Checkout
 "DB exception","Exception DB",module,Magento_Checkout
 Message,Messaggio,module,Magento_Checkout
-"<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print""> stampa ricevuta</a>",module,Magento_Checkout
 "Apply Discount Code","Applica il codice sconto",module,Magento_Checkout
 "Enter discount code","Inserisci il codice sconto",module,Magento_Checkout
 "Apply Discount","Applica sconto",module,Magento_Checkout
@@ -3353,6 +3349,8 @@ Dispute,Controversia,module,Magento_Paypal
 "N/A. Retry","N/D. Riprova",module,Magento_Paypal
 "N/A. Service not Supported","N/D. Servizio non supportato",module,Magento_Paypal
 "N/A. Unavailable","N/D. non disponibile",module,Magento_Paypal
+"Matched whole nine-digit ZIP (no Address)","Verificato codice ZIP a nove cifre (no Indirizzo)",module,Magento_Paypal
+"Yes. Matched Address and five-digit ZIP","Sì. Verificato l'indirizzo e il codice ZIP a cinque cifre",module,Magento_Paypal
 "All the address information matched","Tutte le informazioni di indirizzo corrispondono",module,Magento_Paypal
 "None of the address information matched","Non corrisponde nessuna delle informazioni dell'indirizzo",module,Magento_Paypal
 "Part of the address information matched","Corrisponde una parte delle informazioni dell'indirizzo",module,Magento_Paypal
@@ -4385,6 +4383,8 @@ Sales,Vendite,module,Magento_Sales
 "Path ""%1"" is not part of allowed directory ""%2""","Path ""%1"" non fa parte della direttory consentita ""%2""",module,Magento_Sales
 "Identifying Fields required","Identificazione cambi obbligatori",module,Magento_Sales
 "Id required","Id obbligatorio",module,Magento_Sales
+"""Invoice Document Validation Error(s):\n"" .","""Errori convalida documenti fattura(e):\n"".",module,Magento_Sales
+"Could not save an invoice, see error log for details","Impossibile salvare una fattura, vedere log degli errori per i dettagli",module,Magento_Sales
 "A hold action is not available.","L'azione ""blocca"" non è disponibile.",module,Magento_Sales
 "You cannot remove the hold.","Non è possibile rimuovere il blocco.",module,Magento_Sales
 "We cannot cancel this order.","Non è possibile annullare l'ordine.",module,Magento_Sales
@@ -4489,6 +4489,7 @@ title,titolo,module,Magento_Sales
 "The last status can't be unassigned from its current state.","L'ultimo status non può essere disassegnato dal suo stato corrente.",module,Magento_Sales
 "Status can't be unassigned, because it is used by existing order(s).","Lo status non può essere disassegnato perchè è utilizzato da ordini esistenti.",module,Magento_Sales
 "The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","Il modello totale dovrebbe essere esteso da \Magento\Sales\Model\Order\Total\AbstractTotal.",module,Magento_Sales
+"An invoice cannot be created when an order has a status of %1","Impossibile creare la fattura quando l'ordine ha lo stato %1",module,Magento_Sales
 "A shipment cannot be created when an order has a status of %1","Una spedizione non può essere creata quando l'ordine è in stato di %1",module,Magento_Sales
 "The order does not allow a shipment to be created.","L'ordine non consente di creare una spedizione.",module,Magento_Sales
 "We cannot determine the field name.","Non è possibile determinare il nome del campo.",module,Magento_Sales
@@ -5001,6 +5002,7 @@ All,Tutti,module,Magento_Sitemap
 "Environment emulation nesting is not allowed.","Annidamento ambienti di simulazione non consentito.",module,Magento_Store
 "Website was not found","Sito Web non è stato trovato",module,Magento_Store
 "Group was not found","Gruppo non è stato trovato",module,Magento_Store
+"Store was not found","Negozio non trovato",module,Magento_Store
 "%1 should implement %2","%1 deve implementare %2",module,Magento_Store
 "The following stores are not associated with a root category: ' . . '. For the store to be displayed in the storefront, it must be associated with a root category.","I seguenti negozi non sono associati a una categoria principale: '. . '. Per visualizzare il catalogo nella vetrina, esso deve essere associato a una categoria principale.",module,Magento_Store
 "Invalid scope object","Oggetto ambito non valido",module,Magento_Store
@@ -5971,8 +5973,6 @@ Footer,"Piè di pagina",theme,frontend/Magento/luma
 "Sorry, but something went wrong. Please contact the seller.","Spiacenti, ma qualcosa è andato storto. Contattare l'assistenza clienti.",module,Magento_Authorizenet
 "We could not detect a size.","Non è possibile individuare una dimensione.",module,Magento_Backend
 "We don't recognize or support this file extension type.","Non è possibile riconoscere o supportare questo tipo di estensione file.",module,Magento_Backend
-"Warning message","Messaggio d'avviso",module,Magento_Backend
-"This operation can take a long time","Questa operazione può richiedere molto tempo",module,Magento_Backend
 "This payment is not available","Questo pagamento non è disponibile",module,Magento_Braintree
 YY,AA,module,Magento_Braintree
 "Please try again with another form of payment.","Si prega di riprovare con un\'altra forma di pagamento.",module,Magento_Braintree
@@ -6196,7 +6196,6 @@ Title,Titolo,module,Magento_Authorizenet
 Content,Contenuto,module,Magento_Backend
 Elements,Elementi,module,Magento_Backend
 Schedule,Pianifica,module,Magento_Backend
-"Content translation","Traduzione contenuto",module,Magento_Backend
 Settings,Impostazioni,module,Magento_Backend
 Attributes,Attributi,module,Magento_Backend
 "Other Settings","Altre impostazioni",module,Magento_Backend
@@ -6409,7 +6408,6 @@ Currency,Valuta,module,Magento_Braintree
 Select...,Seleziona...,module,Magento_Bundle
 Thumbnail,Miniatura,module,Magento_Bundle
 Type,Tipo,module,Magento_Bundle
-"Special Price","Prezzo speciale",module,Magento_Bundle
 "Enable CAPTCHA in Admin","Abilita CAPTCHA in Admin",module,Magento_Captcha
 "Displaying Mode","Modalità di visualizzazione",module,Magento_Captcha
 "Number of Unsuccessful Attempts to Login","Numero di tentativi di Login falliti",module,Magento_Captcha
@@ -6729,7 +6727,6 @@ Enable,Attiva,module,Magento_Cms
 "Some Label","Alcune etichette",module,Magento_Config
 "Tab Label","Etichetta scheda",module,Magento_Config
 "Allow everything","Consenti tutto",module,Magento_Config
-Dashboard,Cruscotto,module,Magento_Config
 "Manage Stores","Gestisci Negozi",module,Magento_Config
 "Field 2","Campo 2",module,Magento_Config
 "Field 3","Campo 3",module,Magento_Config
@@ -6883,7 +6880,7 @@ Addresses,Indirizzi,module,Magento_Customer
 "Account Dashboard","Dashboard Account",module,Magento_Customer
 "Edit Account Information","Modificare le informazioni Account",module,Magento_Customer
 "Password forgotten","Password dimenticata",module,Magento_Customer
-"My Dashboard",Dashboard,module,Magento_Customer
+"My Dashboard","La mia Dashboard",module,Magento_Customer
 "You are signed out","Ti sei disconnesso",module,Magento_Customer
 "Frontend Development Workflow","Workflow di sviluppo frontend",module,Magento_Developer
 "Workflow type","Tipo workflow",module,Magento_Developer
@@ -7276,6 +7273,7 @@ Schedule,Pianifica,module,Magento_Paypal
 "Header Border Color","Colore bordo header",module,Magento_Paypal
 "2-pixel perimeter around the header space.","perimetro di 2 pixel attorno allo spazio dell'header.",module,Magento_Paypal
 "Page Background Color","Colore background pagina",module,Magento_Paypal
+"Accept payments with a PCI-compliant checkout that keeps customers on your site. (<u>Includes Express Checkout</u>)","Accetta pagamenti con un checkout conforme PCI-conforme che mantiene i clienti sul tuo sito. (<u>Include Express Checkout</u>)",module,Magento_Paypal
 "Payments Advanced and Express Checkout","Pagamenti avanzati ed Express Checkout",module,Magento_Paypal
 Vendor,Venditore,module,Magento_Paypal
 User,Utente,module,Magento_Paypal
@@ -7289,15 +7287,19 @@ User,Utente,module,Magento_Paypal
 "Require CVV Entry","Richiede l'immissione del CVV",module,Magento_Paypal
 "Send Email Confirmation","Invia Email di conferma",module,Magento_Paypal
 "URL method for Cancel URL and Return URL","Metodo URL per URL di annullamento e URL di ritorno",module,Magento_Paypal
+"Connect your merchant account with a PCI-compliant gateway that lets customers pay without leaving your site. (<u>Includes Express Checkout</u>)","Connetti il tuo account venditore con un gateway PCI-compliant che consente ai tuoi clienti di pagare senza lasciare il tuo sito. (<u>Include Express Checkout</u>)",module,Magento_Paypal
 "Payflow Link and Express Checkout","Payflow Link e Express Checkout",module,Magento_Paypal
 "If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.","Se non si dispone di più utenti sul tuo account, immettere nuovamente la tua Login venditore qui.",module,Magento_Paypal
 "Enable Payflow Link","Abilita Payflow Link",module,Magento_Paypal
 "Enable Express Checkout","Abilita Express Checkout",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Link","Impostazioni di base - PayPal Payflow Link",module,Magento_Paypal
+"Accept payments with a PCI compliant checkout that keeps customers on your site. (<u>Includes Express Checkout</u>)","Accetta pagamenti con un checkout conforme PCI-conforme che mantiene i clienti sul tuo sito. (<u>Include Express Checkout</u>)",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro Hosted Solution","Impostazioni di base - PayPal Payments Pro Hosted Solution",module,Magento_Paypal
 "Display Express Checkout in the Payment Information step","Visualizza Express Checkout nello step di informazioni di pagamento",module,Magento_Paypal
 "Website Payments Pro Hosted Solution and Express Checkout","Website Payments Pro Hosted Solution e Express Checkout",module,Magento_Paypal
 "Basic Settings - PayPal Website Payments Pro Hosted Solution","Impostazioni di base - PayPal Website Payments Pro Hosted Solution",module,Magento_Paypal
+"Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site. (<u>Includes Express Checkout</u>)","Connetti il tuo account venditore con un gateway completamente personalizzabile che consente ai tuoi clienti di pagare senza lasciare il sito. (<u>Include Express Checkout</u>)",module,Magento_Paypal
+"Vault Enabled","Vault Abilitata",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Pro","Impostazioni di base - PayPal Payflow Pro",module,Magento_Paypal
 "Vault Title","Titolo di Deposito",module,Magento_Paypal
 "Credit Card Settings","Impostazioni Carta di credito",module,Magento_Paypal
@@ -7306,6 +7308,7 @@ User,Utente,module,Magento_Paypal
 "Reject Transaction if:","Rifiutare la transazione se:",module,Magento_Paypal
 "AVS Street Does Not Match","AVS indirizzi non corrispondono",module,Magento_Paypal
 "AVS Zip Does Not Match","AVS Cap non corrispondono",module,Magento_Paypal
+"Card Issuer Is Outside The United States","L'emittente della carta è fuori dagli Stati Uniti",module,Magento_Paypal
 "Card Security Code Does Not Match","Il codice di sicurezza della carta non corrisponde",module,Magento_Paypal
 "Payflow Pro and Express Checkout","Payflow Pro e Express Checkout",module,Magento_Paypal
 "Persistent Shopping Cart","Carrello persistente",module,Magento_Persistent
@@ -7390,6 +7393,7 @@ Promotion,Promozione,module,Magento_SalesRule
 Priority,Priorità,module,Magento_SalesRule
 "Cart Price Rule","Regola di prezzo del carrello",module,Magento_SalesRule
 Back,Indietro,module,Magento_SalesRule
+"Currently Active","Attualmente attivo",module,Magento_SalesRule
 "Rule Information","Informazioni sulle regole",module,Magento_SalesRule
 "Rule Name","Nome regola",module,Magento_SalesRule
 Description,Descrizione,module,Magento_SalesRule
