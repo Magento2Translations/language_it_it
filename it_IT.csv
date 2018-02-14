@@ -5720,8 +5720,8 @@ edit,modifica,module,Magento_Checkout
 Next,Successivo,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Spiacente, al momento nessun preventivo è disponibile per questo ordine",module,Magento_Checkout
 "Order Summary","Riepilogo Ordine",module,Magento_Checkout
-"Item in Cart","Articoli nel Carrello",module,Magento_Checkout
-"Items in Cart","Articoli nel Carrello",module,Magento_Checkout
+"Item in Cart","Articoli nel carrello",module,Magento_Checkout
+"Items in Cart","Articoli nel carrello",module,Magento_Checkout
 "View Details","Vedi Dettagli",module,Magento_Checkout
 "Contact Form","Modulo di Contatto",module,Magento_Contact
 "Name: %name","Nome: %name",module,Magento_Contact
@@ -6589,7 +6589,6 @@ Enable,Attiva,module,Magento_Cms
 "Some Label","Alcune etichette",module,Magento_Config
 "Tab Label","Etichetta scheda",module,Magento_Config
 "Allow everything","Consenti tutto",module,Magento_Config
-Dashboard,Cruscotto,module,Magento_Config
 "Manage Stores","Gestisci Negozi",module,Magento_Config
 "Field 2","Campo 2",module,Magento_Config
 "Field 3","Campo 3",module,Magento_Config
@@ -6738,7 +6737,7 @@ Addresses,Indirizzi,module,Magento_Customer
 "Account Dashboard","Dashboard Account",module,Magento_Customer
 "Edit Account Information","Modificare le informazioni Account",module,Magento_Customer
 "Password forgotten","Password dimenticata",module,Magento_Customer
-"My Dashboard",Dashboard,module,Magento_Customer
+"My Dashboard","La mia Dashboard",module,Magento_Customer
 "You are signed out","Ti sei disconnesso",module,Magento_Customer
 "Frontend Development Workflow","Workflow di sviluppo frontend",module,Magento_Developer
 "Workflow type","Tipo workflow",module,Magento_Developer
