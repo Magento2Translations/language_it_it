@@ -4302,7 +4302,7 @@ Type,Tipo,module,Magento_Customer
 Addresses,Indirizzi,module,Magento_Customer
 "Edit Account Information","Modificare le informazioni Account",module,Magento_Customer
 "Password forgotten","Password dimenticata",module,Magento_Customer
-"My Dashboard",Dashboard,module,Magento_Customer
+"My Dashboard","La mia Dashboard",module,Magento_Customer
 "Front-end development workflow","Workflow di sviluppo frontend",module,Magento_Developer
 "Workflow type","Tipo workflow",module,Magento_Developer
 "Not available in production mode","Non disponibile in modalità produzione",module,Magento_Developer
