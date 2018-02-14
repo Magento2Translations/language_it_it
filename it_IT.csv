@@ -4309,6 +4309,8 @@ Sales,Vendite,module,Magento_Sales
 "Path ""%1"" is not part of allowed directory ""%2""","Path ""%1"" non fa parte della direttory consentita ""%2""",module,Magento_Sales
 "Identifying Fields required","Identificazione cambi obbligatori",module,Magento_Sales
 "Id required","Id obbligatorio",module,Magento_Sales
+"""Invoice Document Validation Error(s):\n"" .","""Errori convalida documenti fattura(e):\n"".",module,Magento_Sales
+"Could not save an invoice, see error log for details","Impossibile salvare una fattura, vedere log degli errori per i dettagli",module,Magento_Sales
 "A hold action is not available.","L'azione ""blocca"" non è disponibile.",module,Magento_Sales
 "You cannot remove the hold.","Non è possibile rimuovere il blocco.",module,Magento_Sales
 "We cannot cancel this order.","Non è possibile annullare l'ordine.",module,Magento_Sales
@@ -4416,6 +4418,7 @@ title,titolo,module,Magento_Sales
 "The last status can't be unassigned from its current state.","L'ultimo status non può essere disassegnato dal suo stato corrente.",module,Magento_Sales
 "Status can't be unassigned, because it is used by existing order(s).","Lo status non può essere disassegnato perchè è utilizzato da ordini esistenti.",module,Magento_Sales
 "The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","Il modello totale dovrebbe essere esteso da \Magento\Sales\Model\Order\Total\AbstractTotal.",module,Magento_Sales
+"An invoice cannot be created when an order has a status of %1","Impossibile creare la fattura quando l'ordine ha lo stato %1",module,Magento_Sales
 "A shipment cannot be created when an order has a status of %1","Una spedizione non può essere creata quando l'ordine è in stato di %1",module,Magento_Sales
 "The order does not allow a shipment to be created.","L'ordine non consente di creare una spedizione.",module,Magento_Sales
 "We cannot determine the field name.","Non è possibile determinare il nome del campo.",module,Magento_Sales
@@ -5726,8 +5729,8 @@ edit,modifica,module,Magento_Checkout
 Next,Successivo,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Spiacente, al momento nessun preventivo è disponibile per questo ordine",module,Magento_Checkout
 "Order Summary","Riepilogo Ordine",module,Magento_Checkout
-"Item in Cart","Articoli nel Carrello",module,Magento_Checkout
-"Items in Cart","Articoli nel Carrello",module,Magento_Checkout
+"Item in Cart","Articoli nel carrello",module,Magento_Checkout
+"Items in Cart","Articoli nel carrello",module,Magento_Checkout
 "View Details","Vedi Dettagli",module,Magento_Checkout
 "Contact Form","Modulo di Contatto",module,Magento_Contact
 "Name: %name","Nome: %name",module,Magento_Contact
@@ -6607,7 +6610,6 @@ Enable,Attiva,module,Magento_Cms
 "Some Label","Alcune etichette",module,Magento_Config
 "Tab Label","Etichetta scheda",module,Magento_Config
 "Allow everything","Consenti tutto",module,Magento_Config
-Dashboard,Cruscotto,module,Magento_Config
 "Manage Stores","Gestisci Negozi",module,Magento_Config
 "Field 2","Campo 2",module,Magento_Config
 "Field 3","Campo 3",module,Magento_Config
@@ -6756,7 +6758,7 @@ Addresses,Indirizzi,module,Magento_Customer
 "Account Dashboard","Dashboard Account",module,Magento_Customer
 "Edit Account Information","Modificare le informazioni Account",module,Magento_Customer
 "Password forgotten","Password dimenticata",module,Magento_Customer
-"My Dashboard",Dashboard,module,Magento_Customer
+"My Dashboard","La mia Dashboard",module,Magento_Customer
 "You are signed out","Ti sei disconnesso",module,Magento_Customer
 "Frontend Development Workflow","Workflow di sviluppo frontend",module,Magento_Developer
 "Workflow type","Tipo workflow",module,Magento_Developer
@@ -7140,6 +7142,7 @@ Schedule,Pianifica,module,Magento_Paypal
 "Header Border Color","Colore bordo header",module,Magento_Paypal
 "2-pixel perimeter around the header space.","perimetro di 2 pixel attorno allo spazio dell'header.",module,Magento_Paypal
 "Page Background Color","Colore background pagina",module,Magento_Paypal
+"Accept payments with a PCI-compliant checkout that keeps customers on your site. (<u>Includes Express Checkout</u>)","Accetta pagamenti con un checkout conforme PCI-conforme che mantiene i clienti sul tuo sito. (<u>Include Express Checkout</u>)",module,Magento_Paypal
 "Payments Advanced and Express Checkout","Pagamenti avanzati ed Express Checkout",module,Magento_Paypal
 Vendor,Venditore,module,Magento_Paypal
 User,Utente,module,Magento_Paypal
@@ -7153,15 +7156,19 @@ User,Utente,module,Magento_Paypal
 "Require CVV Entry","Richiede l'immissione del CVV",module,Magento_Paypal
 "Send Email Confirmation","Invia Email di conferma",module,Magento_Paypal
 "URL method for Cancel URL and Return URL","Metodo URL per URL di annullamento e URL di ritorno",module,Magento_Paypal
+"Connect your merchant account with a PCI-compliant gateway that lets customers pay without leaving your site. (<u>Includes Express Checkout</u>)","Connetti il tuo account venditore con un gateway PCI-compliant che consente ai tuoi clienti di pagare senza lasciare il tuo sito. (<u>Include Express Checkout</u>)",module,Magento_Paypal
 "Payflow Link and Express Checkout","Payflow Link e Express Checkout",module,Magento_Paypal
 "If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.","Se non si dispone di più utenti sul tuo account, immettere nuovamente la tua Login venditore qui.",module,Magento_Paypal
 "Enable Payflow Link","Abilita Payflow Link",module,Magento_Paypal
 "Enable Express Checkout","Abilita Express Checkout",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Link","Impostazioni di base - PayPal Payflow Link",module,Magento_Paypal
+"Accept payments with a PCI compliant checkout that keeps customers on your site. (<u>Includes Express Checkout</u>)","Accetta pagamenti con un checkout conforme PCI-conforme che mantiene i clienti sul tuo sito. (<u>Include Express Checkout</u>)",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro Hosted Solution","Impostazioni di base - PayPal Payments Pro Hosted Solution",module,Magento_Paypal
 "Display Express Checkout in the Payment Information step","Visualizza Express Checkout nello step di informazioni di pagamento",module,Magento_Paypal
 "Website Payments Pro Hosted Solution and Express Checkout","Website Payments Pro Hosted Solution e Express Checkout",module,Magento_Paypal
 "Basic Settings - PayPal Website Payments Pro Hosted Solution","Impostazioni di base - PayPal Website Payments Pro Hosted Solution",module,Magento_Paypal
+"Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site. (<u>Includes Express Checkout</u>)","Connetti il tuo account venditore con un gateway completamente personalizzabile che consente ai tuoi clienti di pagare senza lasciare il sito. (<u>Include Express Checkout</u>)",module,Magento_Paypal
+"Vault Enabled","Vault Abilitata",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Pro","Impostazioni di base - PayPal Payflow Pro",module,Magento_Paypal
 "Vault Title","Titolo di Deposito",module,Magento_Paypal
 "Credit Card Settings","Impostazioni Carta di credito",module,Magento_Paypal
