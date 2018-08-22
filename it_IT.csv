@@ -4880,6 +4880,7 @@ Shipments,Spedizioni,module,Magento_Shipping
 "We can't delete tracking number.","Non è possibile eliminare numero di tracciamento.",module,Magento_Shipping
 "We can't load track with retrieving identifier right now.","Non è possibile caricare il tracciamento con l'identificatore recuperato in questo momento.",module,Magento_Shipping
 "We can't save the shipment right now.","Al momento è impossibile salvare il segmento.",module,Magento_Shipping
+"""Shipment Document Validation Error(s):\n"" .","""Errori convalida documento(i) di trasporto:\n"".",module,Magento_Shipping
 "The shipment has been created.","La spedizione è stata creata.",module,Magento_Shipping
 "Cannot save shipment.","Non è possibile salvare la spedizione.",module,Magento_Shipping
 "The order no longer exists.","L'ordine non esiste più.",module,Magento_Shipping
