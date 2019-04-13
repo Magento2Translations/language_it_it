@@ -1,7 +1,7 @@
 {
   "name": "magento2translations/language_it_it",
   "description": "Italian (italiano) Magento2 Language Pack (it_IT) - From Magento2Translations",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "http://magento2translations.github.io/",
   "license": [
     "MIT"
